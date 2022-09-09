@@ -21,5 +21,5 @@ int main(void)
 	}
 
 	putchar(10); /* this is an ascii for new line*/
-	reurn (0);
+	return (0);
 }
