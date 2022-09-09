@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	char ch;
+	int ch;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (ch = 48; ch <= 57; ch++)
 	{
 		putchar(ch);
 	}
 
-	putchar(10); /* this is an ascii code for new line*/
+	putchar(10; /* this is an ascii code for new line*/
 
 	return (0);
 }
