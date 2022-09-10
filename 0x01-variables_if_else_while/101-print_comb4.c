@@ -7,23 +7,23 @@
 
 int main(void)
 {
-	int n, m, 1;
+	int n, m, i;
 
 	for (n = 48; n < 58; n++)
 	{
 		for (m = 49; m < 58; m++)
 		{
-			for (1 = 50; 1 < 58; 1++)
+			for (i = 50; i < 58; i++)
 			{
-				if (1 > m && m > n)
+				if (i > m && m > n)
 				{
 					putchar(n);
 
 					putchar(m);
 
-					putchar(1);
+					putchar(i);
 
-					if (n != 55; || m != 56)
+					if (n != 55 || m != 56)
 					{
 						putchar(',');
 
