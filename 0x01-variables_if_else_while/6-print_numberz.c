@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - prints the size of various types
- * Return: 0 if exited properly, non-zero otherwise
+ * main -> assign a random number to the variable n each time it is executed
+ * and print the last digit of the number stored in the variable n
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	int ch;
 
-	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	for (ch = 48; ch <= 57; ch++)
+	{
+		putchar(ch);
+	}
 
-	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-
-	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-
-	printf("Size of a float: %d byte(s)\n", sizeof(float));
+	putchar(10); /* this is an ascii code for new line*/
 
 	return (0);
 }
