@@ -1,40 +1,22 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints alphabet 10 times
- * Return:void
+ * print_alphabet_x10 - prints the lowercase alphabet 10 times on new lines 
+ *
+ * Return: void
  */
 
 void print_alphabet_x10(void)
-
 {
+	char c = 'a';
+	int i, j;
 
-	char c;
-
-	int i = 0;
-
-
-
-	while (i < 10)
-
+	for (i = 0; i < 10; i++)
 	{
-
-		c = 'a';
-
-		while (c <= 'z')
-
+		for (j = 0; j < 26; j++)
 		{
-
-			_putchar(c);
-
-			c++;
-
+			_putchar(c + j);
 		}
-
-			_putchar(c);
-
-			i++;
-
-		}
-
+		_putchar(10);
 	}
+}
