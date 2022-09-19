@@ -6,7 +6,6 @@
  *  @a: first argument
  *  @n: second argument
  *  Description: return the required result
- *  Description: return the required result
  */
 
 void print_array(int *a, int n)
