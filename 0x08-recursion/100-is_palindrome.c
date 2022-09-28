@@ -22,11 +22,11 @@ int is_palindrome(char *s)
  * Return: int
  */
 int _strlen_recursion(char *s)
-[
+{
 	int len;
 
 	if (*s == '\0')
-	        return (0);
+		return (0);
 	len = _strlen_recursion(s + 1);
 	return (len + 1);
 }
@@ -49,3 +49,4 @@ int palindrome_check(char *s, int len, int i)
 		return (palindrome_check(s, --len, ++i));
 	return (1);
 }
+
